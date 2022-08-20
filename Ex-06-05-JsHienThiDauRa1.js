@@ -1,0 +1,3 @@
+function theHienHinhAnh (){
+    alert("TinXinChao!");
+}

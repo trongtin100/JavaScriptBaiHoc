@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScriptSuKienBatChuotDoDen</title>
+</head>
+<body>
+    <p id="demo">This is a text</p>
+    <script>
+        var tin=document.getElementById("demo");
+        tin.addEventListener("mouseover",mouseover);
+        tin.addEventListener("mouseout",mouseout);
+
+        function mouseover() {
+            document.getElementById("demo").style.color = "yellow";
+        }
+        function mouseout () {
+            document.getElementById("demo").style.color= "red";
+        }
+    </script>
+</body>
+</html>
